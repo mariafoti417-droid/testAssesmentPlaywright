@@ -1,0 +1,13 @@
+{
+  "name": "testAssesment",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1"
+  },
+"scripts": {
+  "test:ui": "npx playwright test SauceDemo/tests",
+  "test:api": "npx playwright test PetApi/tests",
+  "test:all": "npx playwright test"
+}
+}
+
